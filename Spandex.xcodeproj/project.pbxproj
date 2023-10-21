@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E93C55B92AE40A8900A7CF4C /* SpandexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C55B82AE40A8900A7CF4C /* SpandexApp.swift */; };
+		E93C55BB2AE40A8900A7CF4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C55BA2AE40A8900A7CF4C /* ContentView.swift */; };
+		E93C55BD2AE40A8A00A7CF4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93C55BC2AE40A8A00A7CF4C /* Assets.xcassets */; };
+		E93C55C02AE40A8A00A7CF4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93C55BF2AE40A8A00A7CF4C /* Preview Assets.xcassets */; };
+		E93C55CB2AE40A8A00A7CF4C /* SpandexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C55CA2AE40A8A00A7CF4C /* SpandexTests.swift */; };
+		E93C55D52AE40A8A00A7CF4C /* SpandexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C55D42AE40A8A00A7CF4C /* SpandexUITests.swift */; };
+		E93C55D72AE40A8A00A7CF4C /* SpandexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C55D62AE40A8A00A7CF4C /* SpandexUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E93C55C72AE40A8A00A7CF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E93C55AD2AE40A8900A7CF4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E93C55B42AE40A8900A7CF4C;
+			remoteInfo = Spandex;
+		};
+		E93C55D12AE40A8A00A7CF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E93C55AD2AE40A8900A7CF4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E93C55B42AE40A8900A7CF4C;
+			remoteInfo = Spandex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E93C55B52AE40A8900A7CF4C /* Spandex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spandex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93C55B82AE40A8900A7CF4C /* SpandexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpandexApp.swift; sourceTree = "<group>"; };
+		E93C55BA2AE40A8900A7CF4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E93C55BC2AE40A8A00A7CF4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E93C55BF2AE40A8A00A7CF4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E93C55C12AE40A8A00A7CF4C /* Spandex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spandex.entitlements; sourceTree = "<group>"; };
+		E93C55C62AE40A8A00A7CF4C /* SpandexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpandexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93C55CA2AE40A8A00A7CF4C /* SpandexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpandexTests.swift; sourceTree = "<group>"; };
+		E93C55D02AE40A8A00A7CF4C /* SpandexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpandexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93C55D42AE40A8A00A7CF4C /* SpandexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpandexUITests.swift; sourceTree = "<group>"; };
+		E93C55D62AE40A8A00A7CF4C /* SpandexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpandexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E93C55B22AE40A8900A7CF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93C55C32AE40A8A00A7CF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93C55CD2AE40A8A00A7CF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E93C55AC2AE40A8900A7CF4C = {
+			isa = PBXGroup;
+			children = (
+				E93C55B72AE40A8900A7CF4C /* Spandex */,
+				E93C55C92AE40A8A00A7CF4C /* SpandexTests */,
+				E93C55D32AE40A8A00A7CF4C /* SpandexUITests */,
+				E93C55B62AE40A8900A7CF4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E93C55B62AE40A8900A7CF4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E93C55B52AE40A8900A7CF4C /* Spandex.app */,
+				E93C55C62AE40A8A00A7CF4C /* SpandexTests.xctest */,
+				E93C55D02AE40A8A00A7CF4C /* SpandexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E93C55B72AE40A8900A7CF4C /* Spandex */ = {
+			isa = PBXGroup;
+			children = (
+				E93C55B82AE40A8900A7CF4C /* SpandexApp.swift */,
+				E93C55BA2AE40A8900A7CF4C /* ContentView.swift */,
+				E93C55BC2AE40A8A00A7CF4C /* Assets.xcassets */,
+				E93C55C12AE40A8A00A7CF4C /* Spandex.entitlements */,
+				E93C55BE2AE40A8A00A7CF4C /* Preview Content */,
+			);
+			path = Spandex;
+			sourceTree = "<group>";
+		};
+		E93C55BE2AE40A8A00A7CF4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E93C55BF2AE40A8A00A7CF4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E93C55C92AE40A8A00A7CF4C /* SpandexTests */ = {
+			isa = PBXGroup;
+			children = (
+				E93C55CA2AE40A8A00A7CF4C /* SpandexTests.swift */,
+			);
+			path = SpandexTests;
+			sourceTree = "<group>";
+		};
+		E93C55D32AE40A8A00A7CF4C /* SpandexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E93C55D42AE40A8A00A7CF4C /* SpandexUITests.swift */,
+				E93C55D62AE40A8A00A7CF4C /* SpandexUITestsLaunchTests.swift */,
+			);
+			path = SpandexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E93C55B42AE40A8900A7CF4C /* Spandex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93C55DA2AE40A8A00A7CF4C /* Build configuration list for PBXNativeTarget "Spandex" */;
+			buildPhases = (
+				E93C55B12AE40A8900A7CF4C /* Sources */,
+				E93C55B22AE40A8900A7CF4C /* Frameworks */,
+				E93C55B32AE40A8900A7CF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spandex;
+			productName = Spandex;
+			productReference = E93C55B52AE40A8900A7CF4C /* Spandex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E93C55C52AE40A8A00A7CF4C /* SpandexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93C55DD2AE40A8A00A7CF4C /* Build configuration list for PBXNativeTarget "SpandexTests" */;
+			buildPhases = (
+				E93C55C22AE40A8A00A7CF4C /* Sources */,
+				E93C55C32AE40A8A00A7CF4C /* Frameworks */,
+				E93C55C42AE40A8A00A7CF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E93C55C82AE40A8A00A7CF4C /* PBXTargetDependency */,
+			);
+			name = SpandexTests;
+			productName = SpandexTests;
+			productReference = E93C55C62AE40A8A00A7CF4C /* SpandexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E93C55CF2AE40A8A00A7CF4C /* SpandexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93C55E02AE40A8A00A7CF4C /* Build configuration list for PBXNativeTarget "SpandexUITests" */;
+			buildPhases = (
+				E93C55CC2AE40A8A00A7CF4C /* Sources */,
+				E93C55CD2AE40A8A00A7CF4C /* Frameworks */,
+				E93C55CE2AE40A8A00A7CF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E93C55D22AE40A8A00A7CF4C /* PBXTargetDependency */,
+			);
+			name = SpandexUITests;
+			productName = SpandexUITests;
+			productReference = E93C55D02AE40A8A00A7CF4C /* SpandexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E93C55AD2AE40A8900A7CF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E93C55B42AE40A8900A7CF4C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E93C55C52AE40A8A00A7CF4C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E93C55B42AE40A8900A7CF4C;
+					};
+					E93C55CF2AE40A8A00A7CF4C = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E93C55B42AE40A8900A7CF4C;
+					};
+				};
+			};
+			buildConfigurationList = E93C55B02AE40A8900A7CF4C /* Build configuration list for PBXProject "Spandex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E93C55AC2AE40A8900A7CF4C;
+			productRefGroup = E93C55B62AE40A8900A7CF4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E93C55B42AE40A8900A7CF4C /* Spandex */,
+				E93C55C52AE40A8A00A7CF4C /* SpandexTests */,
+				E93C55CF2AE40A8A00A7CF4C /* SpandexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E93C55B32AE40A8900A7CF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93C55C02AE40A8A00A7CF4C /* Preview Assets.xcassets in Resources */,
+				E93C55BD2AE40A8A00A7CF4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93C55C42AE40A8A00A7CF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93C55CE2AE40A8A00A7CF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E93C55B12AE40A8900A7CF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93C55BB2AE40A8900A7CF4C /* ContentView.swift in Sources */,
+				E93C55B92AE40A8900A7CF4C /* SpandexApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93C55C22AE40A8A00A7CF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93C55CB2AE40A8A00A7CF4C /* SpandexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93C55CC2AE40A8A00A7CF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93C55D72AE40A8A00A7CF4C /* SpandexUITestsLaunchTests.swift in Sources */,
+				E93C55D52AE40A8A00A7CF4C /* SpandexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E93C55C82AE40A8A00A7CF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E93C55B42AE40A8900A7CF4C /* Spandex */;
+			targetProxy = E93C55C72AE40A8A00A7CF4C /* PBXContainerItemProxy */;
+		};
+		E93C55D22AE40A8A00A7CF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E93C55B42AE40A8900A7CF4C /* Spandex */;
+			targetProxy = E93C55D12AE40A8A00A7CF4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E93C55D82AE40A8A00A7CF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E93C55D92AE40A8A00A7CF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E93C55DB2AE40A8A00A7CF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Spandex/Spandex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spandex/Preview Content\"";
+				DEVELOPMENT_TEAM = G784RQSG92;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.polz.Spandex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E93C55DC2AE40A8A00A7CF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Spandex/Spandex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spandex/Preview Content\"";
+				DEVELOPMENT_TEAM = G784RQSG92;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.polz.Spandex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E93C55DE2AE40A8A00A7CF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G784RQSG92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.polz.SpandexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spandex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spandex";
+			};
+			name = Debug;
+		};
+		E93C55DF2AE40A8A00A7CF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G784RQSG92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.polz.SpandexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spandex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spandex";
+			};
+			name = Release;
+		};
+		E93C55E12AE40A8A00A7CF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G784RQSG92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.polz.SpandexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Spandex;
+			};
+			name = Debug;
+		};
+		E93C55E22AE40A8A00A7CF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G784RQSG92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.polz.SpandexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Spandex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E93C55B02AE40A8900A7CF4C /* Build configuration list for PBXProject "Spandex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93C55D82AE40A8A00A7CF4C /* Debug */,
+				E93C55D92AE40A8A00A7CF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93C55DA2AE40A8A00A7CF4C /* Build configuration list for PBXNativeTarget "Spandex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93C55DB2AE40A8A00A7CF4C /* Debug */,
+				E93C55DC2AE40A8A00A7CF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93C55DD2AE40A8A00A7CF4C /* Build configuration list for PBXNativeTarget "SpandexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93C55DE2AE40A8A00A7CF4C /* Debug */,
+				E93C55DF2AE40A8A00A7CF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93C55E02AE40A8A00A7CF4C /* Build configuration list for PBXNativeTarget "SpandexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93C55E12AE40A8A00A7CF4C /* Debug */,
+				E93C55E22AE40A8A00A7CF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E93C55AD2AE40A8900A7CF4C /* Project object */;
+}

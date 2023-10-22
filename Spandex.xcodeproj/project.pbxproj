@@ -14,6 +14,7 @@
 		E93C55CB2AE40A8A00A7CF4C /* SpandexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C55CA2AE40A8A00A7CF4C /* SpandexTests.swift */; };
 		E93C55D52AE40A8A00A7CF4C /* SpandexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C55D42AE40A8A00A7CF4C /* SpandexUITests.swift */; };
 		E93C55D72AE40A8A00A7CF4C /* SpandexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C55D62AE40A8A00A7CF4C /* SpandexUITestsLaunchTests.swift */; };
+		E9FB5E132AE596A30060EC40 /* Sauce in Frameworks */ = {isa = PBXBuildFile; productRef = E9FB5E122AE596A30060EC40 /* Sauce */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FB5E132AE596A30060EC40 /* Sauce in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +147,9 @@
 			dependencies = (
 			);
 			name = Spandex;
+			packageProductDependencies = (
+				E9FB5E122AE596A30060EC40 /* Sauce */,
+			);
 			productName = Spandex;
 			productReference = E93C55B52AE40A8900A7CF4C /* Spandex.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = E93C55AC2AE40A8900A7CF4C;
+			packageReferences = (
+				E9FB5E112AE596A20060EC40 /* XCRemoteSwiftPackageReference "Sauce" */,
+			);
 			productRefGroup = E93C55B62AE40A8900A7CF4C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -581,6 +589,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9FB5E112AE596A20060EC40 /* XCRemoteSwiftPackageReference "Sauce" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Clipy/Sauce";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9FB5E122AE596A30060EC40 /* Sauce */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9FB5E112AE596A20060EC40 /* XCRemoteSwiftPackageReference "Sauce" */;
+			productName = Sauce;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E93C55AD2AE40A8900A7CF4C /* Project object */;
 }

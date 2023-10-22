@@ -18,21 +18,12 @@
 
 
 import SwiftUI
+import Sauce
 
 struct Snippet {
     let trigger: String
     let content: String
-    /**
-     example xname
-     ##should Match
-     -xname
-     - xname
-     -the xname
-     ##shouldn´t match
-     -xnot
-     -xnam
-     -theuxname
-     */
+
     func matches(_ string: String) -> Bool {
         let hasSuffix = string.hasSuffix(trigger)
         let isBoundary = (string.dropLast(trigger.count).last ?? " ").isWhitespace
@@ -80,8 +71,60 @@ class SpandexModel: ObservableObject {
         }
     }
     
+    func delete() {
+        let eventSource = CGEventSource(stateID: .combinedSessionState)
+        let keyDownEvent = CGEvent(
+            keyboardEventSource: eventSource,
+            virtualKey: CGKeyCode(51),
+            keyDown: true)
+        
+        let keyUpEvent = CGEvent(
+            keyboardEventSource: eventSource,
+            virtualKey: CGKeyCode(51),
+            keyDown: false)
+        
+        keyDownEvent?.post(tap: .cghidEventTap)
+        keyUpEvent?.post(tap: .cghidEventTap)
+    }
+    
+    func insert() {
+        let keycode = Sauce.shared.keyCode(for: .v)
+        let eventSource = CGEventSource(stateID: .combinedSessionState)
+        let keyDownEvent = CGEvent(
+            keyboardEventSource: eventSource,
+            virtualKey: keycode,
+            keyDown: true)
+        keyDownEvent?.flags.insert(.maskCommand)
+
+        let keyUpEvent = CGEvent(
+            keyboardEventSource: eventSource,
+            virtualKey: keycode,
+            keyDown: false)
+        
+        keyDownEvent?.post(tap: .cghidEventTap)
+        keyUpEvent?.post(tap: .cghidEventTap)
+    }
+    
     func insertSnippet(_ snippet: Snippet) {
         print("inserting \(snippet)")
+        for _ in snippet.trigger {
+            self.delete()
+        }
+        
+        // save current clipboard
+        let oldClipboard = NSPasteboard.general.string(forType: .string)
+        // set clipbpoard to snippet content
+        NSPasteboard.general.declareTypes([.string], owner: nil)
+        NSPasteboard.general.setString(snippet.content, forType: .string)
+        // insert clipboard
+        insert()
+        //restore old clipboard to current clipboard
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
+            if let oldClipboard = oldClipboard {
+                NSPasteboard.general.setString(snippet.content, forType: .string)
+            }
+        }
+        
     }
 }
 

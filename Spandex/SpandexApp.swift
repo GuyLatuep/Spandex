@@ -12,6 +12,17 @@ struct SpandexApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear(perform: {
+                    getPermission()
+                })
         }
     }
+    
+    func getPermission() {
+        AXIsProcessTrustedWithOptions(
+            [kAXTrustedCheckOptionPrompt.takeUnretainedValue(): true] as CFDictionary
+        )
+    }
 }
+
+

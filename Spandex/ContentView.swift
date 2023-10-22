@@ -7,7 +7,27 @@
 
 import SwiftUI
 
+struct Snippet {
+    let trigger: String
+    let content: String
+}
+
+extension NSEvent {
+    var isDelete: Bool {
+        keyCode == 53
+    }
+}
+
+class SpandexModel: ObservableObject {
+    init() {
+        NSEvent.addGlobalMonitorForEvents(matching: .keyDown) { (event) in
+            guard let characters = event.characters else {return}
+            print(characters, event.keyCode)
+        }
+    }
+}
 struct ContentView: View {
+    @StateObject var model = SpandexModel()
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -22,3 +42,10 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+enum Color: CaseIterable {
+    case blue
+    case white
+    case red
+}
+
